@@ -11,14 +11,14 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+<!--                         <phase>package</phase> -->
                         <goals>
                             <goal>single</goal>
                         </goals>
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>calculator.Calculator</mainClass>
+                                    <mainClass>Calculator</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
